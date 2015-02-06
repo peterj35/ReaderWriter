@@ -1,0 +1,457 @@
+Writer 1 is writing
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
+Reader 1 is wanting to read
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 1
+Writer 2 is wanting to write.
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 1
+Reader 2 is wanting to read
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 2
+Writer 3 is wanting to write.
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 2
+Reader 3 is wanting to read
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 3
+Writer 4 is wanting to write.
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 3
+Reader 4 is wanting to read
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 4
+Writer 5 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 4
+Reader 5 is wanting to read
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 5
+Writer 6 is wanting to write.
+Writers Writing: 1 Writers Waiting: 5 Readers Reading: 0 Readers Waiting: 5
+Reader 6 is wanting to read
+Writers Writing: 1 Writers Waiting: 5 Readers Reading: 0 Readers Waiting: 6
+Writer 7 is wanting to write.
+Writers Writing: 1 Writers Waiting: 6 Readers Reading: 0 Readers Waiting: 6
+Reader 7 is wanting to read
+Writers Writing: 1 Writers Waiting: 6 Readers Reading: 0 Readers Waiting: 7
+Writer 8 is wanting to write.
+Writers Writing: 1 Writers Waiting: 7 Readers Reading: 0 Readers Waiting: 7
+This is main speaking
+Reader 8 is wanting to read
+Writers Writing: 1 Writers Waiting: 7 Readers Reading: 0 Readers Waiting: 8
+Writer 1 is done writing
+Writers Writing: 0 Writers Waiting: 7 Readers Reading: 0 Readers Waiting: 8
+Writer 2 is writing
+Writers Writing: 1 Writers Waiting: 6 Readers Reading: 0 Readers Waiting: 8	// Writers are getting exclusive access
+Writer 2 is done writing
+Writers Writing: 0 Writers Waiting: 6 Readers Reading: 0 Readers Waiting: 8
+Writer 3 is writing
+Writers Writing: 1 Writers Waiting: 5 Readers Reading: 0 Readers Waiting: 8
+Writer 3 is done writing
+Writers Writing: 0 Writers Waiting: 5 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is writing
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 5 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 1 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is wanting to write.
+Writers Writing: 1 Writers Waiting: 5 Readers Reading: 0 Readers Waiting: 8
+Writer 5 is done writing
+Writers Writing: 0 Writers Waiting: 5 Readers Reading: 0 Readers Waiting: 8
+Writer 6 is writing
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 6 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 7 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 2 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 7 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 8 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 8 is done writing
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 1 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 8
+Writer 1 is done writing
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is writing
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is done writing
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 8
+Writer 2 is writing
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 8
+Writer 2 is done writing
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 8	// No writers in que, Readers can now start
+Reader 1 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 7
+Reader 2 is reading								// Reader 2 is reading in parallel with Reader 1
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 6
+Reader 3 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 5
+Reader 4 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 4
+Reader 5 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 5 Readers Waiting: 3
+Reader 6 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 6 Readers Waiting: 2
+Reader 7 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 7 Readers Waiting: 1
+Reader 8 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 8 Readers Waiting: 0
+Reader 2 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 7 Readers Waiting: 0
+Reader 3 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 6 Readers Waiting: 0
+Reader 3 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 7 Readers Waiting: 0
+Reader 5 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 6 Readers Waiting: 0
+Reader 8 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 5 Readers Waiting: 0
+Reader 4 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 0
+Reader 6 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 0
+Reader 7 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 0
+Writer 5 is wanting to write.
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 2 Readers Waiting: 0
+Reader 1 is done reading
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 1 Readers Waiting: 0
+Writer 3 is wanting to write.
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 1 Readers Waiting: 0
+Reader 2 is wanting to read
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 1 Readers Waiting: 1
+Reader 3 is done reading
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 1
+Writer 5 is writing
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 1
+Writer 4 is wanting to write.
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 1
+Writer 8 is wanting to write.
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 1
+Writer 1 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 1
+Writer 5 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 1
+Writer 3 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 1
+Writer 2 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 1
+Writer 3 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 1
+Writer 4 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 1
+Writer 7 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 1
+Reader 8 is wanting to read
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 2
+Reader 1 is wanting to read
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 3
+Reader 4 is wanting to read
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 4
+Writer 4 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 4
+Writer 8 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 4
+Writer 8 is done writing
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 4
+Writer 1 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 4
+Reader 5 is wanting to read
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 5
+Writer 6 is wanting to write.
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 5
+Writer 1 is done writing
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 5
+Writer 2 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 5
+Writer 8 is wanting to write.
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 5
+Writer 4 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 5
+Reader 7 is wanting to read
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 6
+Writer 2 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 6
+Writer 7 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 6
+Writer 5 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 6
+Reader 3 is wanting to read
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 7
+Writer 7 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 7
+Writer 6 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 7
+Writer 6 is done writing
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 7
+Writer 8 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 7
+Writer 1 is wanting to write.
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 7
+Reader 6 is wanting to read
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 3 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 8 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is done writing
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 5 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 8
+Writer 8 is wanting to write.
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 5 is done writing
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 1 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is wanting to write.
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 1 is done writing
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 8
+Writer 3 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 8
+Writer 3 is done writing
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 8
+Writer 8 is writing
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 8
+Writer 2 is wanting to write.
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 8
+Writer 8 is done writing
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is writing
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 8
+Writer 4 is done writing
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 8
+Writer 2 is writing
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 8
+Writer 2 is done writing
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 8
+Reader 2 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 7
+Reader 8 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 6
+Reader 1 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 5
+Reader 4 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 4
+Reader 5 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 5 Readers Waiting: 3
+Reader 7 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 6 Readers Waiting: 2
+Reader 3 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 7 Readers Waiting: 1
+Reader 6 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 8 Readers Waiting: 0
+Reader 8 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 7 Readers Waiting: 0
+Reader 2 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 6 Readers Waiting: 0
+Reader 7 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 5 Readers Waiting: 0
+Reader 3 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 0
+Reader 6 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 0
+Reader 3 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 0
+Reader 5 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 0
+Reader 1 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 0
+Reader 4 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Writer 8 is wanting to write.
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 1 Readers Waiting: 0
+Writer 1 is wanting to write.
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 1 Readers Waiting: 0
+Writer 7 is wanting to write.
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 1 Readers Waiting: 0
+Reader 3 is done reading
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 0
+Writer 8 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 0
+Writer 6 is wanting to write.
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 0
+Writer 2 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 0
+Writer 8 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 0
+Writer 1 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 0
+Reader 5 is wanting to read
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 1
+Reader 4 is wanting to read
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 2
+Reader 7 is wanting to read
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 3
+Reader 3 is wanting to read
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 4
+Reader 8 is wanting to read
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 5
+Writer 5 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 5
+Writer 1 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 5
+Writer 7 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 5
+Writer 3 is wanting to write.
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 5
+Reader 6 is wanting to read
+Writers Writing: 1 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 6
+Writer 7 is done writing
+Writers Writing: 0 Writers Waiting: 4 Readers Reading: 0 Readers Waiting: 6
+Writer 6 is writing
+Writers Writing: 1 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 6
+Writer 6 is done writing
+Writers Writing: 0 Writers Waiting: 3 Readers Reading: 0 Readers Waiting: 6
+Writer 2 is writing
+Writers Writing: 1 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 6
+Writer 2 is done writing
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 6
+Writer 5 is writing
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 6
+Reader 2 is wanting to read
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 7
+Writer 5 is done writing
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 7
+Writer 3 is writing
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 7
+Reader 1 is wanting to read
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 8
+Writer 3 is done writing
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 8
+Reader 5 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 7
+Reader 4 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 6
+Reader 7 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 5
+Reader 3 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 4
+Reader 8 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 5 Readers Waiting: 3
+Reader 6 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 6 Readers Waiting: 2
+Reader 2 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 7 Readers Waiting: 1
+Reader 1 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 8 Readers Waiting: 0
+Reader 4 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 7 Readers Waiting: 0
+Reader 6 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 6 Readers Waiting: 0
+Reader 5 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 5 Readers Waiting: 0
+Reader 8 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 0
+Reader 6 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 5 Readers Waiting: 0
+Writer 6 is wanting to write.
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 5 Readers Waiting: 0
+Reader 7 is done reading
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 4 Readers Waiting: 0
+Reader 1 is done reading
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 3 Readers Waiting: 0
+Reader 2 is done reading
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 2 Readers Waiting: 0
+Reader 3 is done reading
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 1 Readers Waiting: 0
+Writer 7 is wanting to write.
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 1 Readers Waiting: 0
+Reader 6 is done reading
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 0
+Writer 6 is writing
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 0
+Writer 6 is done writing
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 0
+Writer 7 is writing
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
+Writer 7 is done writing
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
+Reader 4 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Reader 2 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 0
+Reader 5 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 0
+Reader 4 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 0
+Reader 5 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Reader 8 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 0
+Reader 8 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Reader 2 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
+Reader 5 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Writer 5 is wanting to write.
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 1 Readers Waiting: 0
+Writer 3 is wanting to write.
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 1 Readers Waiting: 0
+Reader 5 is done reading
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 0
+Writer 5 is writing
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 0
+Writer 5 is done writing
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 0
+Writer 3 is writing
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
+Writer 3 is done writing
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
+Reader 8 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Writer 7 is wanting to write.
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 1 Readers Waiting: 0
+Writer 6 is wanting to write.
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 1 Readers Waiting: 0
+Reader 8 is done reading
+Writers Writing: 0 Writers Waiting: 2 Readers Reading: 0 Readers Waiting: 0
+Writer 7 is writing
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 0
+Reader 4 is wanting to read
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 1
+Reader 7 is wanting to read
+Writers Writing: 1 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 2
+Writer 7 is done writing
+Writers Writing: 0 Writers Waiting: 1 Readers Reading: 0 Readers Waiting: 2
+Writer 6 is writing
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 2
+Reader 2 is wanting to read
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 3
+Reader 1 is wanting to read
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 4
+Reader 6 is wanting to read
+Writers Writing: 1 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 5
+Writer 6 is done writing
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 5
+Reader 4 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 4
+Reader 7 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 3
+Reader 2 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 2
+Reader 1 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 1
+Reader 6 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 5 Readers Waiting: 0
+Reader 2 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 4 Readers Waiting: 0
+Reader 7 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 3 Readers Waiting: 0
+Reader 4 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 2 Readers Waiting: 0
+Reader 1 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Reader 6 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
+Reader 1 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Reader 1 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
+Reader 7 is reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 1 Readers Waiting: 0
+Reader 7 is done reading
+Writers Writing: 0 Writers Waiting: 0 Readers Reading: 0 Readers Waiting: 0
